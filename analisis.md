@@ -167,12 +167,13 @@ Data identitas praktikan tidak muncul pada halaman web, dan koneksi ke database 
 File `db/init.sql` diawali dengan ` ```sql ` dan diakhiri ` ``` ` (markdown code fence). MySQL tidak dapat mengeksekusi file SQL yang mengandung karakter tersebut, sehingga tabel dan data awal tidak terbuat dengan benar.
 
 
+
+### Solusi
+Menghapus baris ` ```sql ` di awal dan ` ``` ` di akhir file `init.sql`, sehingga hanya menyisakan perintah SQL yang valid.
+
 ### Dokumentasi
 <img width="956" height="549" alt="image" src="https://github.com/user-attachments/assets/4adb5fed-1d0b-4338-8237-1cdd2b183e44" />
 <img width="701" height="536" alt="image" src="https://github.com/user-attachments/assets/fe1cdad9-9ca8-4685-aef1-3309423c1cb2" />
 <img width="959" height="599" alt="image" src="https://github.com/user-attachments/assets/aa4937fa-cae0-4322-b864-dadf398b6614" />
 <img width="958" height="599" alt="image" src="https://github.com/user-attachments/assets/09ad1f19-7117-440c-86de-b42d36de9efe" />
 <img width="958" height="599" alt="image" src="https://github.com/user-attachments/assets/b6805029-7594-4ab6-8ac9-d37e6fa8981d" />
-
-### Solusi
-Menghapus baris ` ```sql ` di awal dan ` ``` ` di akhir file `init.sql`, sehingga hanya menyisakan perintah SQL yang valid.
