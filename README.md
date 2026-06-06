@@ -83,8 +83,8 @@ Pastikan seluruh service dapat berjalan dengan baik dan memenuhi ketentuan berik
 
 Ganti placeholder identitas yang tersedia pada aplikasi dengan data berikut:
 
-* Nama Lengkap
-* NIM
+* Fathah Ikhwansyah
+* H1H024063
 
 Identitas harus muncul pada seluruh web server.
 
